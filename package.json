@@ -2,24 +2,22 @@
   "name": "bencode",
   "version": "0.4.3",
   "license": "MIT",
-  "description": "Bencode de/encoder",
-  "keywords": [ "torrent", "bittorrent", "bencode", "bdecode", "bencoding" ],
-
-  "contributors": [
-    {
-      "name": "Mark Schmale",
-      "email": "masch@masch.it",
-      "url": "http://masch.it/"
-    },
-    {
-      "name": "Jonas Hermsmeier",
-      "email": "jonas@hojoki.com"
-    }
-
+  "description": "Streaming Bencode duplex de/encoder",
+  "keywords": [
+    "torrent", "bittorrent", "bencode", "bdecode", "bencoding"
   ],
 
+  "contributors": [{
+    "name": "Mark Schmale",
+    "email": "masch@masch.it",
+    "url": "http://masch.it/"
+  },{
+    "name": "Jonas Hermsmeier",
+    "email": "jhermsmeier@gmail.com"
+  }],
+  
   "main": "bencode.js",
-
+  
   "devDependencies": {
     "matcha": "",
     "bencoding": "",
